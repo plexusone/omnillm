@@ -122,9 +122,11 @@ func (c *Client) CreateCompletionStream(ctx context.Context, req *Request) (*Str
 		return nil, c.handleErrorResponse(resp)
 	}
 
+	scanner := bufio.NewScanner(resp.Body)
+	scanner.Buffer(make([]byte, 64*1024), 1024*1024) // 64KB initial, 1MB max
 	return &Stream{
 		response: resp,
-		scanner:  bufio.NewScanner(resp.Body),
+		scanner:  scanner,
 	}, nil
 }
 
