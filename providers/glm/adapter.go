@@ -3,6 +3,7 @@ package glm
 
 import (
 	"context"
+	"errors"
 	"net/http"
 
 	"github.com/plexusone/omnillm/provider"
@@ -53,7 +54,7 @@ func (p *Provider) CreateChatCompletion(ctx context.Context, req *provider.ChatC
 	}
 
 	if len(resp.Choices) == 0 {
-		return nil, nil
+		return nil, errors.New("glm: empty choices in completion response")
 	}
 
 	// Convert back to unified format
