@@ -1,0 +1,35 @@
+{
+  "irVersion": "1.0",
+  "project": "omnillm",
+  "repository": "https://github.com/plexusone/omnillm",
+  "versioning": "semver",
+  "commitConvention": "conventional",
+  "releases": [
+    {
+      "version": "v0.15.0",
+      "date": "2026-04-12",
+      "highlights": [
+        { "description": "Batteries-included OmniLLM aggregator with thick providers" },
+        { "description": "Import once for OpenAI, Anthropic, and Gemini SDK-based providers" }
+      ],
+      "added": [
+        { "description": "Aggregator package importing thick providers (OpenAI, Anthropic, Gemini)", "commit": "8e9e85c" },
+        { "description": "Provider subpackage for API compatibility with omnillm-core", "commit": "8e9e85c" },
+        { "description": "Re-export `ObservabilityHook` and `LLMCallInfo` types", "commit": "8e9e85c" }
+      ],
+      "dependencies": [
+        { "description": "`github.com/plexusone/omnillm-core` v0.15.0", "commit": "9584256" },
+        { "description": "`github.com/plexusone/omnillm-openai` v0.1.0", "commit": "9584256" },
+        { "description": "`github.com/plexusone/omnillm-anthropic` v0.1.0", "commit": "9584256" },
+        { "description": "`github.com/plexusone/omnillm-gemini` v0.1.0", "commit": "9584256" }
+      ],
+      "documentation": [
+        { "description": "README with feature support table", "commit": "309e83f" }
+      ],
+      "internal": [
+        { "description": "Add shared CI workflows", "commit": "e4dc9aa" },
+        { "description": "Add LICENSE file", "commit": "fd1ba2d" }
+      ]
+    }
+  ]
+}
