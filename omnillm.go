@@ -29,6 +29,7 @@ import (
 	// Blank imports to trigger init() registration of thick providers.
 	// These override the thin providers in omnillm-core.
 	_ "github.com/plexusone/omnillm-anthropic"
+	_ "github.com/plexusone/omnillm-bedrock"
 	_ "github.com/plexusone/omnillm-gemini"
 	_ "github.com/plexusone/omnillm-openai"
 )

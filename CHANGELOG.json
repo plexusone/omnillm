@@ -6,14 +6,14 @@
   "commitConvention": "conventional",
   "releases": [
     {
-      "version": "v0.15.0",
+      "version": "v0.15.1",
       "date": "2026-04-12",
       "highlights": [
         { "description": "Batteries-included OmniLLM aggregator with thick providers" },
-        { "description": "Import once for OpenAI, Anthropic, and Gemini SDK-based providers" }
+        { "description": "Import once for OpenAI, Anthropic, Gemini, and Bedrock SDK-based providers" }
       ],
       "added": [
-        { "description": "Aggregator package importing thick providers (OpenAI, Anthropic, Gemini)", "commit": "8e9e85c" },
+        { "description": "Aggregator package importing thick providers (OpenAI, Anthropic, Gemini, Bedrock)", "commit": "8e9e85c" },
         { "description": "Provider subpackage for API compatibility with omnillm-core", "commit": "8e9e85c" },
         { "description": "Re-export `ObservabilityHook` and `LLMCallInfo` types", "commit": "8e9e85c" }
       ],
@@ -21,7 +21,8 @@
         { "description": "`github.com/plexusone/omnillm-core` v0.15.0", "commit": "9584256" },
         { "description": "`github.com/plexusone/omnillm-openai` v0.1.0", "commit": "9584256" },
         { "description": "`github.com/plexusone/omnillm-anthropic` v0.1.0", "commit": "9584256" },
-        { "description": "`github.com/plexusone/omnillm-gemini` v0.1.0", "commit": "9584256" }
+        { "description": "`github.com/plexusone/omnillm-gemini` v0.1.0", "commit": "9584256" },
+        { "description": "`github.com/plexusone/omnillm-bedrock` v0.5.0", "commit": "9584256" }
       ],
       "documentation": [
         { "description": "README with feature support table", "commit": "309e83f" }
