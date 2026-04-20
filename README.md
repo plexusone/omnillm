@@ -5,6 +5,7 @@
 [![Go SAST][go-sast-svg]][go-sast-url]
 [![Go Report Card][goreport-svg]][goreport-url]
 [![Docs][docs-godoc-svg]][docs-godoc-url]
+[![Docs][docs-mkdoc-svg]][docs-mkdoc-url]
 [![Visualization][viz-svg]][viz-url]
 [![License][license-svg]][license-url]
 
@@ -18,12 +19,14 @@
  [goreport-url]: https://goreportcard.com/report/github.com/plexusone/omnillm
  [docs-godoc-svg]: https://pkg.go.dev/badge/github.com/plexusone/omnillm
  [docs-godoc-url]: https://pkg.go.dev/github.com/plexusone/omnillm
- [viz-svg]: https://img.shields.io/badge/visualizaton-Go-blue.svg
+ [docs-mkdoc-svg]: https://img.shields.io/badge/Go-dev%20guide-blue.svg
+ [docs-mkdoc-url]: https://plexusone.dev/omnillm
+ [viz-svg]: https://img.shields.io/badge/Go-visualizaton-blue.svg
  [viz-url]: https://mango-dune-07a8b7110.1.azurestaticapps.net/?repo=plexusone%2Fomnillm
  [loc-svg]: https://tokei.rs/b1/github/plexusone/omnillm
  [repo-url]: https://github.com/plexusone/omnillm
  [license-svg]: https://img.shields.io/badge/license-MIT-blue.svg
- [license-url]: https://github.com/plexusone/omnillm/blob/master/LICENSE
+ [license-url]: https://github.com/plexusone/omnillm/blob/main/LICENSE
 
 Batteries-included LLM client that bundles [omnillm-core](https://github.com/plexusone/omnillm-core) with all thick providers.
 
