@@ -70,7 +70,7 @@ Full-featured implementations using official vendor SDKs:
 
 | Provider | Module | Streaming | Tools | JSON Mode |
 |----------|--------|-----------|-------|-----------|
-| OpenAI | [omnillm-openai](https://github.com/plexusone/omnillm-openai) | Yes | Yes | Yes |
+| OpenAI | [omni-openai](https://github.com/plexusone/omni-openai) | Yes | Yes | Yes |
 | Anthropic | [omnillm-anthropic](https://github.com/plexusone/omnillm-anthropic) | Yes | Yes | No |
 | Gemini | [omnillm-gemini](https://github.com/plexusone/omnillm-gemini) | Yes | No | No |
 | Bedrock | [omnillm-bedrock](https://github.com/plexusone/omnillm-bedrock) | Yes | Yes | No |
@@ -93,7 +93,7 @@ Import only what you need:
 ```go
 import (
     omnillm "github.com/plexusone/omnillm-core"
-    _ "github.com/plexusone/omnillm-openai" // Only OpenAI thick provider
+    _ "github.com/plexusone/omni-openai/omnillm" // Only OpenAI thick provider
 )
 ```
 

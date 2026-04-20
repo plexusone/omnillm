@@ -3,11 +3,11 @@ module github.com/plexusone/omnillm
 go 1.26.0
 
 require (
+	github.com/plexusone/omni-openai v0.2.0
 	github.com/plexusone/omnillm-anthropic v0.1.0
 	github.com/plexusone/omnillm-bedrock v0.5.0
 	github.com/plexusone/omnillm-core v0.15.0
 	github.com/plexusone/omnillm-gemini v0.1.0
-	github.com/plexusone/omnillm-openai v0.1.0
 )
 
 require (

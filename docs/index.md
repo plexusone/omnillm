@@ -46,7 +46,7 @@ Full-featured implementations using official vendor SDKs:
 
 | Provider | Module | SDK | Streaming | Tools | JSON Mode |
 |----------|--------|-----|-----------|-------|-----------|
-| OpenAI | `omnillm-openai` | [openai-go](https://github.com/openai/openai-go) | Yes | Yes | Yes |
+| OpenAI | `omni-openai` | [openai-go](https://github.com/openai/openai-go) | Yes | Yes | Yes |
 | Anthropic | `omnillm-anthropic` | [anthropic-sdk-go](https://github.com/anthropics/anthropic-sdk-go) | Yes | Yes | No |
 | Gemini | `omnillm-gemini` | [google.golang.org/genai](https://pkg.go.dev/google.golang.org/genai) | Yes | No | No |
 | Bedrock | `omnillm-bedrock` | [aws-sdk-go-v2](https://github.com/aws/aws-sdk-go-v2) | Yes | Yes | No |
@@ -75,7 +75,7 @@ Import only what you need:
 ```go
 import (
     omnillm "github.com/plexusone/omnillm-core"
-    _ "github.com/plexusone/omnillm-openai"    // OpenAI thick provider
+    _ "github.com/plexusone/omni-openai/omnillm" // OpenAI thick provider
     _ "github.com/plexusone/omnillm-anthropic" // Anthropic thick provider
     _ "github.com/plexusone/omnillm-gemini"    // Gemini thick provider
     _ "github.com/plexusone/omnillm-bedrock"   // AWS Bedrock thick provider
