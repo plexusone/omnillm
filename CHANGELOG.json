@@ -6,19 +6,6 @@
   "commitConvention": "conventional",
   "releases": [
     {
-      "version": "v0.15.4",
-      "date": "2026-04-25",
-      "highlights": [
-        { "description": "Complete migration to consolidated omni-* provider modules" }
-      ],
-      "changed": [
-        { "description": "Replace `omnillm-anthropic` with `omni-anthropic/omnillm`" }
-      ],
-      "dependencies": [
-        { "description": "`github.com/plexusone/omni-anthropic` v0.2.0 (was omnillm-anthropic v0.1.0)" }
-      ]
-    },
-    {
       "version": "v0.15.3",
       "date": "2026-04-25",
       "highlights": [
