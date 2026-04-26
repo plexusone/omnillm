@@ -25,6 +25,7 @@
     {
       "version": "v0.15.2",
       "date": "2026-04-19",
+      "commit": "e1619fa",
       "highlights": [
         { "description": "Update to consolidated OpenAI provider module" }
       ],
@@ -44,6 +45,7 @@
     {
       "version": "v0.15.1",
       "date": "2026-04-12",
+      "commit": "d8a3f59",
       "highlights": [
         { "description": "Batteries-included OmniLLM aggregator with thick providers" },
         { "description": "Import once for OpenAI, Anthropic, Gemini, and Bedrock SDK-based providers" }
