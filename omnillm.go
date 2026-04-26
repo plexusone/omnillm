@@ -28,10 +28,10 @@ import (
 
 	// Blank imports to trigger init() registration of thick providers.
 	// These override the thin providers in omnillm-core.
+	_ "github.com/plexusone/omni-anthropic/omnillm"
 	_ "github.com/plexusone/omni-aws/omnillm"
 	_ "github.com/plexusone/omni-google/omnillm"
 	_ "github.com/plexusone/omni-openai/omnillm"
-	_ "github.com/plexusone/omnillm-anthropic"
 )
 
 // Re-export core types for convenience.
