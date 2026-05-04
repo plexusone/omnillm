@@ -5,7 +5,7 @@ go 1.26.0
 require (
 	github.com/plexusone/omni-anthropic v0.2.0
 	github.com/plexusone/omni-aws v0.8.0
-	github.com/plexusone/omni-google v0.3.0
+	github.com/plexusone/omni-google v0.4.0
 	github.com/plexusone/omni-openai v0.2.1
 	github.com/plexusone/omnillm-core v0.15.0
 )
@@ -62,9 +62,9 @@ require (
 	golang.org/x/sync v0.20.0 // indirect
 	golang.org/x/sys v0.43.0 // indirect
 	golang.org/x/text v0.36.0 // indirect
-	google.golang.org/api v0.276.0 // indirect
-	google.golang.org/genai v1.54.0 // indirect
-	google.golang.org/genproto/googleapis/rpc v0.0.0-20260420184626-e10c466a9529 // indirect
+	google.golang.org/api v0.277.0 // indirect
+	google.golang.org/genai v1.55.0 // indirect
+	google.golang.org/genproto/googleapis/rpc v0.0.0-20260427160629-7cedc36a6bc4 // indirect
 	google.golang.org/grpc v1.80.0 // indirect
 	google.golang.org/protobuf v1.36.11 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
