@@ -74,6 +74,7 @@ Full-featured implementations using official vendor SDKs:
 | Anthropic | [omni-anthropic](https://github.com/plexusone/omni-anthropic) | Yes | Yes | No |
 | Gemini | [omni-google](https://github.com/plexusone/omni-google) | Yes | No | No |
 | Bedrock | [omni-aws](https://github.com/plexusone/omni-aws) | Yes | Yes | No |
+| OpenRouter | [omni-openrouter](https://github.com/plexusone/omni-openrouter) | Yes | Yes | Yes |
 
 Thick providers automatically override thin providers when imported.
 

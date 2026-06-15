@@ -50,6 +50,7 @@ Full-featured implementations using official vendor SDKs:
 | Anthropic | `omni-anthropic` | [anthropic-sdk-go](https://github.com/anthropics/anthropic-sdk-go) | Yes | Yes | No |
 | Gemini | `omni-google` | [google.golang.org/genai](https://pkg.go.dev/google.golang.org/genai) | Yes | No | No |
 | Bedrock | `omni-aws` | [aws-sdk-go-v2](https://github.com/aws/aws-sdk-go-v2) | Yes | Yes | No |
+| OpenRouter | `omni-openrouter` | [go-sdk](https://github.com/OpenRouterTeam/go-sdk) | Yes | Yes | Yes |
 
 ## Thin vs Thick
 
@@ -75,9 +76,10 @@ Import only what you need:
 ```go
 import (
     omnillm "github.com/plexusone/omnillm-core"
-    _ "github.com/plexusone/omni-openai/omnillm"    // OpenAI thick provider
-    _ "github.com/plexusone/omni-anthropic/omnillm" // Anthropic thick provider
-    _ "github.com/plexusone/omni-google/omnillm"    // Gemini thick provider
-    _ "github.com/plexusone/omni-aws/omnillm"       // AWS Bedrock thick provider
+    _ "github.com/plexusone/omni-openai/omnillm"     // OpenAI thick provider
+    _ "github.com/plexusone/omni-anthropic/omnillm"  // Anthropic thick provider
+    _ "github.com/plexusone/omni-google/omnillm"     // Gemini thick provider
+    _ "github.com/plexusone/omni-aws/omnillm"        // AWS Bedrock thick provider
+    _ "github.com/plexusone/omni-openrouter/omnillm" // OpenRouter thick provider
 )
 ```
