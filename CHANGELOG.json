@@ -8,10 +8,16 @@
     {
       "version": "v0.15.5",
       "date": "2026-06-15",
+      "fixed": [
+        { "description": "Pin `anthropic-sdk-go` to v1.45.0 via replace directive to fix jsonschema incompatibility" }
+      ],
       "dependencies": [
         { "description": "`github.com/plexusone/omni-google` v0.5.0 (Gemini Live API)", "commit": "1fa2214" },
         { "description": "`github.com/plexusone/omni-openai` v0.3.0 (Realtime API support)", "commit": "1fa2214" },
         { "description": "`github.com/plexusone/omnillm-core` v0.17.0", "commit": "1fa2214" }
+      ],
+      "documentation": [
+        { "description": "Update thick provider module names to omni-* in README and docs" }
       ]
     },
     {
