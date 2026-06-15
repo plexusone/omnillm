@@ -6,6 +6,23 @@
   "commitConvention": "conventional",
   "releases": [
     {
+      "version": "v0.16.0",
+      "date": "2026-06-15",
+      "highlights": [
+        { "description": "Add OpenRouter provider for access to 300+ AI models" }
+      ],
+      "added": [
+        { "description": "OpenRouter thick provider via `omni-openrouter`" },
+        { "description": "`ProviderNameOpenRouter` constant for provider configuration" }
+      ],
+      "dependencies": [
+        { "description": "`github.com/plexusone/omni-openrouter` v0.1.0" }
+      ],
+      "documentation": [
+        { "description": "Add OpenRouter to thick providers table in README and docs" }
+      ]
+    },
+    {
       "version": "v0.15.5",
       "date": "2026-06-15",
       "fixed": [
