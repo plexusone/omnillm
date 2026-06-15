@@ -47,7 +47,6 @@ require (
 	github.com/invopop/jsonschema v0.13.0 // indirect
 	github.com/mailru/easyjson v0.9.2 // indirect
 	github.com/openai/openai-go v1.12.0 // indirect
-	github.com/pb33f/ordered-map/v2 v2.3.1 // indirect
 	github.com/standard-webhooks/standard-webhooks/libraries v0.0.1 // indirect
 	github.com/tidwall/gjson v1.19.0 // indirect
 	github.com/tidwall/match v1.2.0 // indirect
@@ -59,7 +58,6 @@ require (
 	go.opentelemetry.io/otel v1.44.0 // indirect
 	go.opentelemetry.io/otel/metric v1.44.0 // indirect
 	go.opentelemetry.io/otel/trace v1.44.0 // indirect
-	go.yaml.in/yaml/v4 v4.0.0-rc.5 // indirect
 	golang.org/x/crypto v0.53.0 // indirect
 	golang.org/x/net v0.56.0 // indirect
 	golang.org/x/sync v0.21.0 // indirect
@@ -72,6 +70,10 @@ require (
 	google.golang.org/protobuf v1.36.11 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
+
+// Pin anthropic-sdk-go to v1.45.0 to avoid jsonschema incompatibility.
+// v1.50+ uses pb33f/ordered-map but jsonschema v0.13.0 uses wk8/go-ordered-map.
+replace github.com/anthropics/anthropic-sdk-go => github.com/anthropics/anthropic-sdk-go v1.45.0
 
 // Exclude jsonschema v0.14.0+ due to incompatibility with anthropic-sdk-go.
 // anthropic-sdk-go uses wk8/go-ordered-map but jsonschema v0.14.0 switched to pb33f/ordered-map.
