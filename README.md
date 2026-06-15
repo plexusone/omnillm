@@ -71,16 +71,16 @@ Full-featured implementations using official vendor SDKs:
 | Provider | Module | Streaming | Tools | JSON Mode |
 |----------|--------|-----------|-------|-----------|
 | OpenAI | [omni-openai](https://github.com/plexusone/omni-openai) | Yes | Yes | Yes |
-| Anthropic | [omnillm-anthropic](https://github.com/plexusone/omnillm-anthropic) | Yes | Yes | No |
-| Gemini | [omnillm-gemini](https://github.com/plexusone/omnillm-gemini) | Yes | No | No |
-| Bedrock | [omnillm-bedrock](https://github.com/plexusone/omnillm-bedrock) | Yes | Yes | No |
+| Anthropic | [omni-anthropic](https://github.com/plexusone/omni-anthropic) | Yes | Yes | No |
+| Gemini | [omni-google](https://github.com/plexusone/omni-google) | Yes | No | No |
+| Bedrock | [omni-aws](https://github.com/plexusone/omni-aws) | Yes | Yes | No |
 
 Thick providers automatically override thin providers when imported.
 
 ## Thin vs Thick
 
-| Aspect | Thin (omnillm-core) | Thick (omnillm-*) |
-|--------|---------------------|-------------------|
+| Aspect | Thin (omnillm-core) | Thick (omni-*) |
+|--------|---------------------|----------------|
 | Dependencies | Minimal (stdlib) | Official SDK |
 | API Coverage | Core features | Full coverage |
 | Retries | Manual | SDK-managed |
