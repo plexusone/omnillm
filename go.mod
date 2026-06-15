@@ -5,8 +5,9 @@ go 1.26.0
 require (
 	github.com/plexusone/omni-anthropic v0.2.1
 	github.com/plexusone/omni-aws v0.8.1
-	github.com/plexusone/omni-google v0.5.0
-	github.com/plexusone/omni-openai v0.3.0
+	github.com/plexusone/omni-google v0.6.0
+	github.com/plexusone/omni-openai v0.4.1
+	github.com/plexusone/omni-openrouter v0.1.0
 	github.com/plexusone/omnillm-core v0.17.0
 )
 
@@ -14,6 +15,7 @@ require (
 	cloud.google.com/go v0.123.0 // indirect
 	cloud.google.com/go/auth v0.20.0 // indirect
 	cloud.google.com/go/compute/metadata v0.9.0 // indirect
+	github.com/OpenRouterTeam/go-sdk v0.4.1 // indirect
 	github.com/anthropics/anthropic-sdk-go v1.50.1 // indirect
 	github.com/aws/aws-sdk-go-v2 v1.42.0 // indirect
 	github.com/aws/aws-sdk-go-v2/aws/protocol/eventstream v1.7.13 // indirect
@@ -47,6 +49,7 @@ require (
 	github.com/invopop/jsonschema v0.13.0 // indirect
 	github.com/mailru/easyjson v0.9.2 // indirect
 	github.com/openai/openai-go v1.12.0 // indirect
+	github.com/spyzhov/ajson v0.9.6 // indirect
 	github.com/standard-webhooks/standard-webhooks/libraries v0.0.1 // indirect
 	github.com/tidwall/gjson v1.19.0 // indirect
 	github.com/tidwall/match v1.2.0 // indirect

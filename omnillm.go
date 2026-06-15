@@ -32,6 +32,7 @@ import (
 	_ "github.com/plexusone/omni-aws/omnillm"
 	_ "github.com/plexusone/omni-google/omnillm"
 	_ "github.com/plexusone/omni-openai/omnillm"
+	_ "github.com/plexusone/omni-openrouter/omnillm"
 )
 
 // Re-export core types for convenience.
@@ -109,15 +110,16 @@ type (
 
 // Re-export provider name constants.
 const (
-	ProviderNameOpenAI    = core.ProviderNameOpenAI
-	ProviderNameAnthropic = core.ProviderNameAnthropic
-	ProviderNameGemini    = core.ProviderNameGemini
-	ProviderNameXAI       = core.ProviderNameXAI
-	ProviderNameGLM       = core.ProviderNameGLM
-	ProviderNameKimi      = core.ProviderNameKimi
-	ProviderNameQwen      = core.ProviderNameQwen
-	ProviderNameOllama    = core.ProviderNameOllama
-	ProviderNameBedrock   = core.ProviderNameBedrock
+	ProviderNameOpenAI     = core.ProviderNameOpenAI
+	ProviderNameAnthropic  = core.ProviderNameAnthropic
+	ProviderNameGemini     = core.ProviderNameGemini
+	ProviderNameXAI        = core.ProviderNameXAI
+	ProviderNameGLM        = core.ProviderNameGLM
+	ProviderNameKimi       = core.ProviderNameKimi
+	ProviderNameQwen       = core.ProviderNameQwen
+	ProviderNameOllama     = core.ProviderNameOllama
+	ProviderNameBedrock    = core.ProviderNameBedrock
+	ProviderNameOpenRouter = "openrouter"
 )
 
 // Re-export role constants.
