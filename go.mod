@@ -1,10 +1,10 @@
 module github.com/plexusone/omnillm
 
-go 1.26.0
+go 1.26.4
 
 require (
 	github.com/plexusone/omni-anthropic v0.2.2
-	github.com/plexusone/omni-aws v0.8.2
+	github.com/plexusone/omni-aws v0.9.0
 	github.com/plexusone/omni-google v0.6.1
 	github.com/plexusone/omni-openai v0.4.1
 	github.com/plexusone/omni-openrouter v0.1.1
@@ -32,7 +32,7 @@ require (
 	github.com/aws/aws-sdk-go-v2/service/sso v1.31.3 // indirect
 	github.com/aws/aws-sdk-go-v2/service/ssooidc v1.36.6 // indirect
 	github.com/aws/aws-sdk-go-v2/service/sts v1.43.3 // indirect
-	github.com/aws/smithy-go v1.27.2 // indirect
+	github.com/aws/smithy-go v1.27.3 // indirect
 	github.com/bahlo/generic-list-go v0.2.0 // indirect
 	github.com/buger/jsonparser v1.2.0 // indirect
 	github.com/cespare/xxhash/v2 v2.3.0 // indirect
