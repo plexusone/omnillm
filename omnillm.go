@@ -89,6 +89,9 @@ type (
 	// ResponseFormat specifies the response format.
 	ResponseFormat = core.ResponseFormat
 
+	// ThinkingConfig configures extended thinking for supported providers.
+	ThinkingConfig = core.ThinkingConfig
+
 	// Capabilities describes provider features.
 	Capabilities = core.Capabilities
 
@@ -134,6 +137,21 @@ const (
 const (
 	PriorityThin  = core.PriorityThin
 	PriorityThick = core.PriorityThick
+)
+
+// Re-export reasoning effort constants.
+const (
+	ReasoningEffortNone   = core.ReasoningEffortNone
+	ReasoningEffortLow    = core.ReasoningEffortLow
+	ReasoningEffortMedium = core.ReasoningEffortMedium
+	ReasoningEffortHigh   = core.ReasoningEffortHigh
+)
+
+// Re-export thinking type constants.
+const (
+	ThinkingTypeEnabled  = core.ThinkingTypeEnabled
+	ThinkingTypeDisabled = core.ThinkingTypeDisabled
+	ThinkingTypeAdaptive = core.ThinkingTypeAdaptive
 )
 
 // Re-export common errors.
