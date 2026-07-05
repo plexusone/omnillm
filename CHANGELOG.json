@@ -6,6 +6,27 @@
   "commitConvention": "conventional",
   "releases": [
     {
+      "version": "v0.17.0",
+      "date": "2026-07-05",
+      "highlights": [
+        { "description": "**Reasoning Support**: Unified `ReasoningEffort` and `ThinkingConfig` across all thick providers" }
+      ],
+      "added": [
+        { "description": "Reasoning support via bundled thick providers (OpenAI, Anthropic, Gemini, OpenRouter)" }
+      ],
+      "dependencies": [
+        { "description": "`github.com/plexusone/omnillm-core` v0.17.0 → v0.18.0" },
+        { "description": "`github.com/plexusone/omni-openai` v0.4.1 → v0.5.0 (reasoning_effort)" },
+        { "description": "`github.com/plexusone/omni-anthropic` v0.2.2 → v0.3.0 (extended thinking)" },
+        { "description": "`github.com/plexusone/omni-google` v0.6.1 → v0.7.0 (thinking levels)" },
+        { "description": "`github.com/plexusone/omni-openrouter` v0.1.0 → v0.2.0 (reasoning_effort)" }
+      ],
+      "documentation": [
+        { "description": "Add Reasoning column to provider support tables", "commit": "d92edad" },
+        { "description": "Add Reasoning Support section with usage examples", "commit": "d92edad" }
+      ]
+    },
+    {
       "version": "v0.16.0",
       "date": "2026-06-15",
       "highlights": [
