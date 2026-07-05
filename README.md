@@ -53,30 +53,45 @@ client, _ := omnillm.NewClient(omnillm.ClientConfig{
 
 Lightweight implementations using stdlib `net/http`:
 
-| Provider | Streaming | Tools | JSON Mode |
-|----------|-----------|-------|-----------|
-| OpenAI | Yes | Yes | Yes |
-| Anthropic | Yes | Yes | No |
-| Gemini | Yes | No | No |
-| X.AI (Grok) | Yes | Yes | Yes |
-| GLM (Zhipu) | Yes | Yes | No |
-| Kimi (Moonshot) | Yes | No | No |
-| Qwen (Alibaba) | Yes | Yes | No |
-| Ollama | Yes | Yes | Yes |
+| Provider | Streaming | Tools | Reasoning | JSON Mode |
+|----------|-----------|-------|-----------|-----------|
+| OpenAI | Yes | Yes | Yes | Yes |
+| Anthropic | Yes | Yes | Yes | No |
+| Gemini | Yes | No | No | No |
+| X.AI (Grok) | Yes | Yes | Yes | Yes |
+| GLM (Zhipu) | Yes | Yes | Yes | No |
+| Kimi (Moonshot) | Yes | No | Yes | No |
+| Qwen (Alibaba) | Yes | Yes | Yes | No |
+| Ollama | Yes | Yes | No | Yes |
 
 ### Thick Providers (Official SDKs)
 
 Full-featured implementations using official vendor SDKs:
 
-| Provider | Module | Streaming | Tools | JSON Mode |
-|----------|--------|-----------|-------|-----------|
-| OpenAI | [omni-openai](https://github.com/plexusone/omni-openai) | Yes | Yes | Yes |
-| Anthropic | [omni-anthropic](https://github.com/plexusone/omni-anthropic) | Yes | Yes | No |
-| Gemini | [omni-google](https://github.com/plexusone/omni-google) | Yes | No | No |
-| Bedrock | [omni-aws](https://github.com/plexusone/omni-aws) | Yes | Yes | No |
-| OpenRouter | [omni-openrouter](https://github.com/plexusone/omni-openrouter) | Yes | Yes | Yes |
+| Provider | Module | Streaming | Tools | Reasoning | JSON Mode |
+|----------|--------|-----------|-------|-----------|-----------|
+| OpenAI | [omni-openai](https://github.com/plexusone/omni-openai) | Yes | Yes | Yes | Yes |
+| Anthropic | [omni-anthropic](https://github.com/plexusone/omni-anthropic) | Yes | Yes | Yes | No |
+| Gemini | [omni-google](https://github.com/plexusone/omni-google) | Yes | No | Yes | No |
+| Bedrock | [omni-aws](https://github.com/plexusone/omni-aws) | Yes | Yes | Partial | No |
+| OpenRouter | [omni-openrouter](https://github.com/plexusone/omni-openrouter) | Yes | Yes | Yes | Yes |
 
 Thick providers automatically override thin providers when imported.
+
+## Reasoning Support
+
+Control LLM reasoning depth with the unified `ReasoningEffort` or `Thinking` fields:
+
+```go
+effort := omnillm.ReasoningEffortHigh
+response, err := client.CreateChatCompletion(ctx, &omnillm.ChatCompletionRequest{
+    Model:           "o1-preview", // or claude-sonnet-4, grok-4-fast, etc.
+    ReasoningEffort: &effort,
+    Messages:        messages,
+})
+```
+
+See [Reasoning Feature Guide](https://github.com/plexusone/omnillm-core/blob/main/docs/features/reasoning.md) for details.
 
 ## Thin vs Thick
 
