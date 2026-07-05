@@ -3,12 +3,12 @@ module github.com/plexusone/omnillm
 go 1.26.4
 
 require (
-	github.com/plexusone/omni-anthropic v0.2.2
+	github.com/plexusone/omni-anthropic v0.3.0
 	github.com/plexusone/omni-aws v0.9.0
-	github.com/plexusone/omni-google v0.6.1
-	github.com/plexusone/omni-openai v0.4.1
-	github.com/plexusone/omni-openrouter v0.1.1
-	github.com/plexusone/omnillm-core v0.17.0
+	github.com/plexusone/omni-google v0.7.0
+	github.com/plexusone/omni-openai v0.5.0
+	github.com/plexusone/omni-openrouter v0.2.0
+	github.com/plexusone/omnillm-core v0.18.0
 )
 
 require (
@@ -16,7 +16,7 @@ require (
 	cloud.google.com/go/auth v0.20.0 // indirect
 	cloud.google.com/go/compute/metadata v0.9.0 // indirect
 	github.com/OpenRouterTeam/go-sdk v0.5.12 // indirect
-	github.com/anthropics/anthropic-sdk-go v1.51.0 // indirect
+	github.com/anthropics/anthropic-sdk-go v1.56.0 // indirect
 	github.com/aws/aws-sdk-go-v2 v1.42.1 // indirect
 	github.com/aws/aws-sdk-go-v2/aws/protocol/eventstream v1.7.14 // indirect
 	github.com/aws/aws-sdk-go-v2/config v1.32.27 // indirect
@@ -46,21 +46,21 @@ require (
 	github.com/gorilla/websocket v1.5.3 // indirect
 	github.com/grokify/mogo v0.74.6 // indirect
 	github.com/grokify/sogo v0.15.0 // indirect
-	github.com/invopop/jsonschema v0.13.0 // indirect
-	github.com/mailru/easyjson v0.9.2 // indirect
+	github.com/invopop/jsonschema v0.14.0 // indirect
 	github.com/openai/openai-go v1.12.0 // indirect
+	github.com/pb33f/ordered-map/v2 v2.3.1 // indirect
 	github.com/spyzhov/ajson v0.9.6 // indirect
 	github.com/standard-webhooks/standard-webhooks/libraries v0.0.1 // indirect
 	github.com/tidwall/gjson v1.19.0 // indirect
 	github.com/tidwall/match v1.2.0 // indirect
 	github.com/tidwall/pretty v1.2.1 // indirect
 	github.com/tidwall/sjson v1.2.5 // indirect
-	github.com/wk8/go-ordered-map/v2 v2.1.8 // indirect
 	go.opentelemetry.io/auto/sdk v1.2.1 // indirect
 	go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp v0.69.0 // indirect
 	go.opentelemetry.io/otel v1.44.0 // indirect
 	go.opentelemetry.io/otel/metric v1.44.0 // indirect
 	go.opentelemetry.io/otel/trace v1.44.0 // indirect
+	go.yaml.in/yaml/v4 v4.0.0-rc.6 // indirect
 	golang.org/x/crypto v0.53.0 // indirect
 	golang.org/x/net v0.56.0 // indirect
 	golang.org/x/sync v0.21.0 // indirect
@@ -71,13 +71,4 @@ require (
 	google.golang.org/genproto/googleapis/rpc v0.0.0-20260630182238-925bb5da69e7 // indirect
 	google.golang.org/grpc v1.82.0 // indirect
 	google.golang.org/protobuf v1.36.11 // indirect
-	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
-
-// Pin anthropic-sdk-go to v1.45.0 to avoid jsonschema incompatibility.
-// v1.50+ uses pb33f/ordered-map but jsonschema v0.13.0 uses wk8/go-ordered-map.
-replace github.com/anthropics/anthropic-sdk-go => github.com/anthropics/anthropic-sdk-go v1.45.0
-
-// Exclude jsonschema v0.14.0+ due to incompatibility with anthropic-sdk-go.
-// anthropic-sdk-go uses wk8/go-ordered-map but jsonschema v0.14.0 switched to pb33f/ordered-map.
-exclude github.com/invopop/jsonschema v0.14.0
