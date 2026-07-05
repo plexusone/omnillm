@@ -12,6 +12,9 @@
         { "description": "**Reasoning Support**: Unified `ReasoningEffort` and `ThinkingConfig` across all thick providers" }
       ],
       "added": [
+        { "description": "Re-export `ThinkingConfig` type from omnillm-core", "commit": "0dd3609" },
+        { "description": "Re-export `ReasoningEffortNone/Low/Medium/High` constants", "commit": "0dd3609" },
+        { "description": "Re-export `ThinkingTypeEnabled/Disabled/Adaptive` constants", "commit": "0dd3609" },
         { "description": "Reasoning support via bundled thick providers (OpenAI, Anthropic, Gemini, OpenRouter)" }
       ],
       "dependencies": [
