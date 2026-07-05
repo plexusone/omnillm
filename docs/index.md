@@ -29,28 +29,28 @@ Thick providers are automatically registered via `init()` and override thin prov
 
 Lightweight implementations using stdlib `net/http`:
 
-| Provider | Thin Package | Streaming | Tools | JSON Mode |
-|----------|--------------|-----------|-------|-----------|
-| OpenAI | Built-in | Yes | Yes | Yes |
-| Anthropic | Built-in | Yes | Yes | No |
-| Gemini | Built-in | Yes | No | No |
-| X.AI (Grok) | Built-in | Yes | Yes | Yes |
-| GLM (Zhipu) | Built-in | Yes | Yes | No |
-| Kimi (Moonshot) | Built-in | Yes | No | No |
-| Qwen (Alibaba) | Built-in | Yes | Yes | No |
-| Ollama | Built-in | Yes | Yes | Yes |
+| Provider | Thin Package | Streaming | Tools | Reasoning | JSON Mode |
+|----------|--------------|-----------|-------|-----------|-----------|
+| OpenAI | Built-in | Yes | Yes | Yes | Yes |
+| Anthropic | Built-in | Yes | Yes | Yes | No |
+| Gemini | Built-in | Yes | No | No | No |
+| X.AI (Grok) | Built-in | Yes | Yes | Yes | Yes |
+| GLM (Zhipu) | Built-in | Yes | Yes | Yes | No |
+| Kimi (Moonshot) | Built-in | Yes | No | Yes | No |
+| Qwen (Alibaba) | Built-in | Yes | Yes | Yes | No |
+| Ollama | Built-in | Yes | Yes | No | Yes |
 
 ### Thick Providers (Official SDKs)
 
 Full-featured implementations using official vendor SDKs:
 
-| Provider | Module | SDK | Streaming | Tools | JSON Mode |
-|----------|--------|-----|-----------|-------|-----------|
-| OpenAI | `omni-openai` | [openai-go](https://github.com/openai/openai-go) | Yes | Yes | Yes |
-| Anthropic | `omni-anthropic` | [anthropic-sdk-go](https://github.com/anthropics/anthropic-sdk-go) | Yes | Yes | No |
-| Gemini | `omni-google` | [google.golang.org/genai](https://pkg.go.dev/google.golang.org/genai) | Yes | No | No |
-| Bedrock | `omni-aws` | [aws-sdk-go-v2](https://github.com/aws/aws-sdk-go-v2) | Yes | Yes | No |
-| OpenRouter | `omni-openrouter` | [go-sdk](https://github.com/OpenRouterTeam/go-sdk) | Yes | Yes | Yes |
+| Provider | Module | SDK | Streaming | Tools | Reasoning | JSON Mode |
+|----------|--------|-----|-----------|-------|-----------|-----------|
+| OpenAI | `omni-openai` | [openai-go](https://github.com/openai/openai-go) | Yes | Yes | Yes | Yes |
+| Anthropic | `omni-anthropic` | [anthropic-sdk-go](https://github.com/anthropics/anthropic-sdk-go) | Yes | Yes | Yes | No |
+| Gemini | `omni-google` | [google.golang.org/genai](https://pkg.go.dev/google.golang.org/genai) | Yes | No | Yes | No |
+| Bedrock | `omni-aws` | [aws-sdk-go-v2](https://github.com/aws/aws-sdk-go-v2) | Yes | Yes | Partial | No |
+| OpenRouter | `omni-openrouter` | [go-sdk](https://github.com/OpenRouterTeam/go-sdk) | Yes | Yes | Yes | Yes |
 
 ## Thin vs Thick
 
