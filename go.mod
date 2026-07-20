@@ -6,7 +6,7 @@ require (
 	github.com/plexusone/omni-anthropic v0.3.0
 	github.com/plexusone/omni-aws v0.9.0
 	github.com/plexusone/omni-google v0.7.0
-	github.com/plexusone/omni-openai v0.5.0
+	github.com/plexusone/omni-openai v0.6.0
 	github.com/plexusone/omni-openrouter v0.2.0
 	github.com/plexusone/omnillm-core v0.18.0
 )
@@ -63,9 +63,9 @@ require (
 	go.yaml.in/yaml/v4 v4.0.0-rc.6 // indirect
 	golang.org/x/crypto v0.53.0 // indirect
 	golang.org/x/net v0.56.0 // indirect
-	golang.org/x/sync v0.21.0 // indirect
-	golang.org/x/sys v0.46.0 // indirect
-	golang.org/x/text v0.38.0 // indirect
+	golang.org/x/sync v0.22.0 // indirect
+	golang.org/x/sys v0.47.0 // indirect
+	golang.org/x/text v0.40.0 // indirect
 	google.golang.org/api v0.287.0 // indirect
 	google.golang.org/genai v1.62.0 // indirect
 	google.golang.org/genproto/googleapis/rpc v0.0.0-20260630182238-925bb5da69e7 // indirect
