@@ -4,7 +4,7 @@ go 1.26.4
 
 require (
 	github.com/plexusone/omni-anthropic v0.3.0
-	github.com/plexusone/omni-aws v0.9.0
+	github.com/plexusone/omni-aws v0.10.0
 	github.com/plexusone/omni-google v0.7.0
 	github.com/plexusone/omni-openai v0.5.0
 	github.com/plexusone/omni-openrouter v0.2.0
