@@ -83,8 +83,8 @@ github.com/pb33f/ordered-map/v2 v2.3.1 h1:5319HDO0aw4DA4gzi+zv4FXU9UlSs3xGZ40wcP
 github.com/pb33f/ordered-map/v2 v2.3.1/go.mod h1:qxFQgd0PkVUtOMCkTapqotNgzRhMPL7VvaHKbd1HnmQ=
 github.com/plexusone/omni-anthropic v0.3.0 h1:KfPJKxYyqgjs4C3HWD7i6zPYyEmd9c9+2J0WCh2LaDI=
 github.com/plexusone/omni-anthropic v0.3.0/go.mod h1:uC4i/6Bh9wAESmofRKDFyFY7JF3Rq3grSegzlc1BJzI=
-github.com/plexusone/omni-aws v0.9.0 h1:w8E8GX407SQuzxPi9kmaLuvy5rTKgae+zmhMvnR12mw=
-github.com/plexusone/omni-aws v0.9.0/go.mod h1:jwsBhOSxkeFOmbq9gwVR4cDmyysb1fEcl2XRZF0mx/w=
+github.com/plexusone/omni-aws v0.10.0 h1:s6e9yb5M++4oLy8mta0MQp0hbFHNgtdG+0OKXYH9WUc=
+github.com/plexusone/omni-aws v0.10.0/go.mod h1:FAW5MW+3vju58BciEMB1DqWBlCdscsWkxKjWT4hbxyg=
 github.com/plexusone/omni-google v0.7.0 h1:RIYB80bHdW5z26+ncvNzHzhVADT4UyPKqeCYa7pAiJk=
 github.com/plexusone/omni-google v0.7.0/go.mod h1:gsA32NcWqjQ4caUI71+TjkXwo1HZPkGti3T0g40ILk0=
 github.com/plexusone/omni-openai v0.6.0 h1:jzR7lOAoYc7N46G/LkOfjjjGuQ6CEE/wDojIDQMndhQ=
