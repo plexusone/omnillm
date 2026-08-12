@@ -87,8 +87,8 @@ github.com/plexusone/omni-aws v0.10.0 h1:s6e9yb5M++4oLy8mta0MQp0hbFHNgtdG+0OKXYH
 github.com/plexusone/omni-aws v0.10.0/go.mod h1:FAW5MW+3vju58BciEMB1DqWBlCdscsWkxKjWT4hbxyg=
 github.com/plexusone/omni-google v0.7.0 h1:RIYB80bHdW5z26+ncvNzHzhVADT4UyPKqeCYa7pAiJk=
 github.com/plexusone/omni-google v0.7.0/go.mod h1:gsA32NcWqjQ4caUI71+TjkXwo1HZPkGti3T0g40ILk0=
-github.com/plexusone/omni-openai v0.6.0 h1:jzR7lOAoYc7N46G/LkOfjjjGuQ6CEE/wDojIDQMndhQ=
-github.com/plexusone/omni-openai v0.6.0/go.mod h1:Kl6/IKGjTNmS/xiUJn/RukeRBO+yX2sbK4l6LoSPWBw=
+github.com/plexusone/omni-openai v0.6.1 h1:ycpRdxeHoRJafFcniU/UWH5in+dx99ES7z2Q1m03Vt0=
+github.com/plexusone/omni-openai v0.6.1/go.mod h1:PexKgk17ZkjMow6hmYSGM70y1k16T63h/6EkBR2ojVI=
 github.com/plexusone/omni-openrouter v0.2.0 h1:HCZVJ4XT3aSvSlKxZ2KAcYNrgw923Y4NH8TX4MCBXbM=
 github.com/plexusone/omni-openrouter v0.2.0/go.mod h1:xivHRuhqxe+YGU/RYwj6mIiZe/jCdKvs3hYnVHFGwwE=
 github.com/plexusone/omnillm-core v0.18.0 h1:JnONiIe08W+83hsyxyFHSouk0jkBY2o7/SzvJxF3mYI=
