@@ -6,7 +6,7 @@ require (
 	github.com/plexusone/omni-anthropic v0.3.0
 	github.com/plexusone/omni-aws v0.10.0
 	github.com/plexusone/omni-google v0.7.0
-	github.com/plexusone/omni-openai v0.6.0
+	github.com/plexusone/omni-openai v0.6.1
 	github.com/plexusone/omni-openrouter v0.2.0
 	github.com/plexusone/omnillm-core v0.18.0
 )
