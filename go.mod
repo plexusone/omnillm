@@ -8,7 +8,7 @@ require (
 	github.com/plexusone/omni-google v0.7.0
 	github.com/plexusone/omni-openai v0.6.1
 	github.com/plexusone/omni-openrouter v0.2.0
-	github.com/plexusone/omnillm-core v0.18.0
+	github.com/plexusone/omnillm-core v0.18.1
 )
 
 require (
@@ -44,7 +44,7 @@ require (
 	github.com/googleapis/enterprise-certificate-proxy v0.3.21 // indirect
 	github.com/googleapis/gax-go/v2 v2.24.0 // indirect
 	github.com/gorilla/websocket v1.5.3 // indirect
-	github.com/grokify/mogo v0.74.7 // indirect
+	github.com/grokify/mogo v0.75.0 // indirect
 	github.com/grokify/sogo v0.15.0 // indirect
 	github.com/invopop/jsonschema v0.14.0 // indirect
 	github.com/openai/openai-go v1.12.0 // indirect
@@ -61,11 +61,11 @@ require (
 	go.opentelemetry.io/otel/metric v1.45.0 // indirect
 	go.opentelemetry.io/otel/trace v1.45.0 // indirect
 	go.yaml.in/yaml/v4 v4.0.0-rc.6 // indirect
-	golang.org/x/crypto v0.55.0 // indirect
-	golang.org/x/net v0.58.0 // indirect
-	golang.org/x/sync v0.22.0 // indirect
-	golang.org/x/sys v0.47.0 // indirect
-	golang.org/x/text v0.41.0 // indirect
+	golang.org/x/crypto v0.57.0 // indirect
+	golang.org/x/net v0.59.0 // indirect
+	golang.org/x/sync v0.23.0 // indirect
+	golang.org/x/sys v0.48.0 // indirect
+	golang.org/x/text v0.42.0 // indirect
 	google.golang.org/api v0.293.0 // indirect
 	google.golang.org/genai v1.69.0 // indirect
 	google.golang.org/genproto/googleapis/rpc v0.0.0-20260819154853-08b0e4226688 // indirect
