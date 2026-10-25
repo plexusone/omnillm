@@ -6,7 +6,7 @@ require (
 	github.com/plexusone/omni-anthropic v0.3.0
 	github.com/plexusone/omni-aws v0.10.0
 	github.com/plexusone/omni-google v0.7.0
-	github.com/plexusone/omni-openai v0.6.1
+	github.com/plexusone/omni-openai v0.7.1
 	github.com/plexusone/omni-openrouter v0.2.0
 	github.com/plexusone/omnillm-core v0.18.1
 )
@@ -51,9 +51,9 @@ require (
 	github.com/pb33f/ordered-map/v2 v2.3.1 // indirect
 	github.com/spyzhov/ajson v0.9.6 // indirect
 	github.com/standard-webhooks/standard-webhooks/libraries v0.0.1 // indirect
-	github.com/tidwall/gjson v1.19.0 // indirect
+	github.com/tidwall/gjson v1.20.0 // indirect
 	github.com/tidwall/match v1.2.0 // indirect
-	github.com/tidwall/pretty v1.2.1 // indirect
+	github.com/tidwall/pretty v1.2.2 // indirect
 	github.com/tidwall/sjson v1.2.5 // indirect
 	go.opentelemetry.io/auto/sdk v1.2.1 // indirect
 	go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp v0.70.0 // indirect
