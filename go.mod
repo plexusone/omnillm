@@ -1,12 +1,12 @@
 module github.com/plexusone/omnillm
 
-go 1.26.4
+go 1.26.6
 
 require (
 	github.com/plexusone/omni-anthropic v0.3.0
 	github.com/plexusone/omni-aws v0.11.0
 	github.com/plexusone/omni-google v0.7.0
-	github.com/plexusone/omni-openai v0.7.1
+	github.com/plexusone/omni-openai v0.8.0
 	github.com/plexusone/omni-openrouter v0.2.1
 	github.com/plexusone/omnillm-core v0.18.1
 )
